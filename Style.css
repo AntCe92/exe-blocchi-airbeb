@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.alto{
+    background-image: url(londra.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.medio{
+    background-image: url(Miami.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.basso{
+    background-image: url(tokyo.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+
+
+#contenuto{
+
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*propietà transalte quando è dentro una tonda si riferisce alla frandezza dell' elemento in questo caso il testo Londra */
+
+}
+
+.sfondoopaco{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(80, 80, 80, 0.5) ; /*non riesco a fare lo sfondo trasparente ma la scritta accesa */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
